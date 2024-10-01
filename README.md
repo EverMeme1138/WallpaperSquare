@@ -7,7 +7,7 @@ A Rainmeter Skin for you to put your wallpaper onto your wallpaper (Wallpaper²)
 ## Features
 - Wallpaper on your wallpaper
 - Easy to use setting
-- up to 8 customizable displace boxes
+- up to 8 customizable display boxes
 
 ## Instructions
 ### Drag & drop the wanted picture onto anywhere of the skin.
