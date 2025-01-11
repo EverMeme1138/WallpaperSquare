@@ -24,6 +24,9 @@ PreserveAspectRatio=2
 Container=Meter_Container
 ```
 
+### If you cannot drag and drop the image, check is your skin folder under `OneDrive\Documents`. If so, get [This skin](https://discord.com/channels/148103787259756544/384751038374084638/1084818452360986634) to fix the skin path. Or paste the following commond  to command prompt.
+`@echo off & "C:\Program Files\Rainmeter\Rainmeter.exe" !WriteKeyValue Rainmeter SkinPath "C:\Users\%USERNAME%\Documents\Rainmeter\Skins\" "%APPDATA%\Rainmeter\Rainmeter.ini" & taskkill /f /im "Rainmeter.exe" & xcopy /s /e /y /f /i "C:\Users\%USERNAME%\OneDrive\Documents\Rainmeter\Skins" "C:\Users\%USERNAME%\Documents\Rainmeter\Skins" & timeout 1 & start "" "C:\Program Files\Rainmeter\Rainmeter.exe" & exit`
+
 ### Color code format: Red, Green, Blue, (Transparency)
 - If transparency is unspecified, it is defaulted as 255 (i.e. solidcolor)
 - e.g. 255,0,0 for solid red / 255,0,0,120 for a semi-transparent red
